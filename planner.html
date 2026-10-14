@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Academic Planner — Ekpoto Liberty Bernard</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- ══ Header ══════════════════════════════════════════════════════════ -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">Liberty<span class="accent">.</span></a>
+        <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <span class="sr-only">Open menu</span>
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+        <nav id="primary-navigation" class="primary-nav" data-visible="false" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="planner.html">Planner</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+
+      <section class="planner-intro">
+        <h1 class="section-title">Academic Planner</h1>
+        <p>
+          Manage your assignments, study sessions, and deadlines. Tasks are saved
+          automatically in your browser so they persist between visits.
+        </p>
+      </section>
+
+      <!-- Planner UI is built and injected by js/planner.js -->
+      <div id="planner-app"></div>
+
+    </main>
+
+    <!-- ══ Footer ══════════════════════════════════════════════════════════ -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span class="year"></span> Ekpoto Liberty Bernard</p>
+        <nav class="social" aria-label="Social links">
+          <ul>
+            <li><a href="https://github.com/delino12" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/liberty-ekpoto" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/planner.js"></script>
+  </body>
+</html>
